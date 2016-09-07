@@ -4,8 +4,8 @@ FactoryGirl.define do
 	user_id 43
 	managing_user_id 43 
 	description "Push Notification" 
-	effective_date "2015­07­20T06:28:36­05:00"
-	system_date "2015­07­20T06:28:36­05:00" 
+	effective_date "2015Â­07Â­20T06:28:36Â­05:00"
+	system_date "2015Â­07Â­20T06:28:36Â­05:00" 
 	trait :payload	do
 	
 	end
