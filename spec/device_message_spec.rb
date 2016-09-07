@@ -10,12 +10,12 @@ describe DeviceMessage do
 					e25454608b6097bc412be42ad9bf39797a698925d947b9d136cbb992f649cc96", 
 							"Alert_message": " You have following notifications ", 
 							"badge_count":10, 
-							"created_at":"2015­07­20T06:28:36­05:00", 
+							"created_at":"2015Â­07Â­20T06:28:36Â­05:00", 
 							"id":48, 
 							"member_id":25, 
 							"notification_type": "secure_message", 
 							"silent":true, 
-							"updated_at":"2015­07­20T06:28:36­05:00" }}
+							"updated_at":"2015Â­07Â­20T06:28:36Â­05:00" }}
 				dm1 =  FactoryGirl.build(:device_message, :payload => payload)
 				@dm1 = DeviceMessage.new(dm1)
 				
@@ -27,12 +27,12 @@ describe DeviceMessage do
 						e25454608b6097bc412be42ad9bf39797a698925d947b9d136cbb992f649cc96", 
 								"Alert_message": "This is a sample push notification message", 
 								"badge_count": 0, 
-								"created_at":"2015­07­21T06:28:36­05:00", 
+								"created_at":"2015Â­07Â­21T06:28:36Â­05:00", 
 								"id":48, 
 								"member_id":25, 
 								"notification_type":"Reminder", 
 								"silent":false, 
-								"updated_at":"2015­07­21T06:28:36­05:00" 
+								"updated_at":"2015Â­07Â­21T06:28:36Â­05:00" 
 							  } 
 							} 
 				dm2 =  FactoryGirl.build(:device_message, :payload => payload)
